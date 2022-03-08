@@ -1,4 +1,4 @@
-import Event from '../Structures/EventBase';
+import Event from '../Structures/EventBase.js';
 
 export default class extends Event {
 

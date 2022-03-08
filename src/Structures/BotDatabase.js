@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import database from 'mongoose';
-import * as User from '../Schemas/Users';
+import * as User from '../Schemas/Users.js';
 
 export default class {
 	async loadDatabase() {

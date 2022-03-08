@@ -1,5 +1,5 @@
-import CommandBase from '../../Structures/CommandBase';
-import messageCollector from '../../Custom/messageCollector';
+import CommandBase from '../../Structures/CommandBase.js';
+import messageCollector from '../../Custom/messageCollector.js';
 
 export default class extends CommandBase {
 	constructor(...args) {

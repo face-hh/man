@@ -1,5 +1,5 @@
 import { EventEmitter } from 'events';
-import Collection from './Collection';
+import Collection from './Collection.js';
 import Revolt from '../../node_modules/revolt.js/dist/maps/Messages.js';
 
 export default class extends EventEmitter {
