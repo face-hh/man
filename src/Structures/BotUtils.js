@@ -1,7 +1,7 @@
 import path from 'path';
 import { promisify } from 'util';
 import glob2 from 'glob';
-import properties from '../Custom/properties';
+import properties from '../Custom/properties.js';
 
 const glob = promisify(glob2);
 
