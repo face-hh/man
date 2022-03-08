@@ -1,7 +1,7 @@
 import { Client } from 'revolt.js';
 import Utils from './BotUtils.js';
-import Database from './BotDatabase';
-import config from './BotConfig';
+import Database from './BotDatabase.js';
+import config from './BotConfig.js';
 
 export default class extends Client {
 	constructor(options = config) {

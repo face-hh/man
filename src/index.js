@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import Bot from './Structures/Bot';
+import Bot from './Structures/Bot.js';
 
 (async () => {
 	dotenv.config();
